@@ -24,9 +24,19 @@ export default function FinalCTA() {
     formState: { errors, isSubmitting }
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
   async function onSubmit(data: FormData) {
-    await new Promise((r) => setTimeout(r, 800));
-    console.log('Contact form submission:', data);
+    setSubmitError(null);
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    if (!res.ok) {
+      setSubmitError('Bir hata oluştu. Lütfen tekrar deneyin.');
+      return;
+    }
     setSubmitted(true);
   }
 
@@ -128,6 +138,10 @@ export default function FinalCTA() {
                     <p id="message-error" className="text-xs text-red-400 mt-1 ml-1">{t('messageRequired')}</p>
                   )}
                 </div>
+
+                {submitError && (
+                  <p className="text-xs text-red-400 text-center">{submitError}</p>
+                )}
 
                 <button
                   type="submit"
