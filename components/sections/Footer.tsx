@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import Image from 'next/image';
+const BASE = process.env.NODE_ENV === 'production' ? '/seckinai' : '';
 
 export default async function Footer() {
   const t = await getTranslations('footer');
@@ -32,7 +32,13 @@ export default async function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/logo.png" alt="Seçkin AI" width={32} height={32} className="rounded-lg" />
+              <div className="flex-shrink-0 rounded-lg overflow-hidden" style={{ width: 32, height: 32 }}>
+                <img
+                  src={`${BASE}/logo.png`}
+                  alt="Seçkin AI"
+                  style={{ width: 32, height: 52, objectFit: 'cover', objectPosition: 'top center', display: 'block' }}
+                />
+              </div>
               <span className="text-base font-headline font-bold text-on-surface">
                 Seçkin <span className="text-gradient-subtle">AI</span>
               </span>

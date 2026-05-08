@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import LanguageSwitcher from '@/components/shared/LanguageSwitcher';
+
+const BASE = process.env.NODE_ENV === 'production' ? '/seckinai' : '';
 
 export default function TopNav() {
   const t = useTranslations('nav');
@@ -32,17 +33,17 @@ export default function TopNav() {
     >
       <nav className="flex justify-between items-center w-full px-6 py-3 max-w-container mx-auto">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <Image
-            src="/logo.png"
-            alt="Seçkin AI Logo"
-            width={38}
-            height={38}
-            className="rounded-xl"
-            priority
-          />
-          <span className="text-lg font-headline font-bold text-on-surface tracking-tight">
-            Seçkin <span className="text-gradient-subtle">AI</span>
+        <div className="flex items-center gap-2.5">
+          {/* Crop container: shows only the top ~62% of the PNG (icon, no text) */}
+          <div className="flex-shrink-0 rounded-xl overflow-hidden" style={{ width: 38, height: 38 }}>
+            <img
+              src={`${BASE}/logo.png`}
+              alt="Seçkin AI"
+              style={{ width: 38, height: 61, objectFit: 'cover', objectPosition: 'top center', display: 'block' }}
+            />
+          </div>
+          <span className="text-base font-headline font-bold text-on-surface tracking-tight whitespace-nowrap">
+            Seçkin <span className="text-gradient">AI</span>
           </span>
         </div>
 
