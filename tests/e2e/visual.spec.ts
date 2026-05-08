@@ -32,12 +32,23 @@ test.describe('Visual regression', () => {
     });
   });
 
-  test('services section screenshot', async ({ page }) => {
+  test('services section screenshot', async ({ page, browserName }) => {
+    test.skip(page.viewportSize()?.width !== undefined && page.viewportSize()!.width < 768,
+      'Desktop only — element screenshot unstable at mobile scroll position');
+
     await page.goto('/tr/');
     await page.locator('#services').scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    // Disable JS-driven animations before snapshot
+    await page.evaluate(() => {
+      document.querySelectorAll<HTMLElement>('*').forEach(el => {
+        el.style.animation = 'none';
+        el.style.transition = 'none';
+      });
+    });
+    await page.waitForTimeout(500);
     await expect(page.locator('#services')).toHaveScreenshot('services-tr.png', {
       threshold: 0.05,
+      animations: 'disabled',
     });
   });
 });

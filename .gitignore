@@ -28,4 +28,4 @@ yarn-error.log*
 /test-results/
 /playwright-report/
 /blob-report/
-tests/e2e/visual.spec.ts-snapshots/
+# Note: visual.spec.ts-snapshots/ is intentionally committed (baseline for CI)
