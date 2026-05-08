@@ -60,47 +60,50 @@ export default async function Hero() {
       </div>
 
       {/* Right column — visual */}
-      <div className="flex-1 relative w-full max-w-[520px] aspect-square md:aspect-[4/3] flex items-center justify-center">
-        {/* Central glow orb */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div
-            className="w-64 h-64 rounded-full"
-            style={{
-              background: 'radial-gradient(circle, rgba(107,19,175,0.35) 0%, rgba(229,181,255,0.1) 40%, rgba(20,19,21,0) 70%)',
-              filter: 'blur(30px)'
-            }}
-          />
-        </div>
-
-        {/* Skill category icons floating */}
-        <div className="relative z-10 grid grid-cols-3 gap-4 p-8">
-          {[
-            { icon: 'chat', label: 'Chatbot' },
-            { icon: 'account_tree', label: 'Otomasyon' },
-            { icon: 'domain', label: 'Sektör' },
-            { icon: 'hub', label: 'Entegrasyon' },
-            { icon: 'dashboard', label: 'SaaS' },
-            { icon: 'smartphone', label: 'Mobil' },
-            { icon: 'psychology', label: 'AI Agent' },
-            { icon: 'insert_chart', label: 'Analitik' },
-            { icon: 'security', label: 'Güvenlik' }
-          ].map(({ icon, label }) => (
+      <div className="flex-1 relative w-full max-w-[520px] flex flex-col gap-5">
+        {/* Icon grid with background glow */}
+        <div className="relative">
+          {/* Central glow orb */}
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <div
-              key={icon}
-              className="glass-panel rounded-xl p-3 flex flex-col items-center gap-1.5 card-hover cursor-default"
-            >
-              <span className="material-symbols-outlined text-tertiary" style={{ fontSize: 24 }}>
-                {icon}
-              </span>
-              <span className="text-[10px] font-label tracking-wide text-on-surface-variant text-center leading-tight">
-                {label}
-              </span>
-            </div>
-          ))}
+              className="w-64 h-64 rounded-full"
+              style={{
+                background: 'radial-gradient(circle, rgba(107,19,175,0.35) 0%, rgba(229,181,255,0.1) 40%, rgba(20,19,21,0) 70%)',
+                filter: 'blur(30px)'
+              }}
+            />
+          </div>
+
+          {/* Skill category icons */}
+          <div className="relative z-10 grid grid-cols-3 gap-4 p-4">
+            {[
+              { icon: 'chat', label: 'Chatbot' },
+              { icon: 'account_tree', label: 'Otomasyon' },
+              { icon: 'domain', label: 'Sektör' },
+              { icon: 'hub', label: 'Entegrasyon' },
+              { icon: 'dashboard', label: 'SaaS' },
+              { icon: 'smartphone', label: 'Mobil' },
+              { icon: 'psychology', label: 'AI Agent' },
+              { icon: 'insert_chart', label: 'Analitik' },
+              { icon: 'security', label: 'Güvenlik' }
+            ].map(({ icon, label }) => (
+              <div
+                key={icon}
+                className="glass-panel rounded-xl p-3 flex flex-col items-center gap-1.5 card-hover cursor-default"
+              >
+                <span className="material-symbols-outlined text-tertiary" style={{ fontSize: 24 }}>
+                  {icon}
+                </span>
+                <span className="text-[10px] font-label tracking-wide text-on-surface-variant text-center leading-tight">
+                  {label}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Testimonial overlay */}
-        <div className="absolute bottom-0 left-0 md:-left-8 glass-panel p-4 rounded-xl max-w-xs border-l-4 border-l-tertiary shadow-[0_8px_30px_rgba(107,19,175,0.3)]">
+        {/* Testimonial — below the grid, no overlap */}
+        <div className="glass-panel p-4 rounded-xl border-l-4 border-l-tertiary shadow-[0_8px_30px_rgba(107,19,175,0.3)] mx-4">
           <p className="text-sm font-body text-on-surface italic leading-relaxed mb-2">
             {t('testimonialQuote')}
           </p>
