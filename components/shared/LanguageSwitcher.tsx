@@ -34,6 +34,7 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-1.5 px-3 py-1.5 rounded-full glass-panel text-xs font-label tracking-widest uppercase text-on-surface-variant hover:text-on-surface transition-colors"
         aria-expanded={open}
         aria-haspopup="true"
+        data-testid="lang-switcher"
       >
         <span className="material-symbols-outlined" style={{ fontSize: 14 }}>language</span>
         {locale.toUpperCase()}
@@ -49,6 +50,7 @@ export default function LanguageSwitcher() {
               key={l}
               href={switchPath(l)}
               onClick={() => setOpen(false)}
+              data-testid={`lang-option-${l}`}
               className={`flex items-center gap-2 px-4 py-2.5 text-xs font-label tracking-widest uppercase transition-colors ${
                 locale === l
                   ? 'text-tertiary bg-secondary-container/20'

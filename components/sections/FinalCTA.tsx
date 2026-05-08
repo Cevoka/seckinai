@@ -91,7 +91,7 @@ export default function FinalCTA() {
           {/* Form */}
           <div className="flex-1 w-full">
             {submitted ? (
-              <div className="glass-panel-strong rounded-2xl p-8 text-center flex flex-col items-center gap-4">
+              <div data-testid="form-success" className="glass-panel-strong rounded-2xl p-8 text-center flex flex-col items-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-secondary-container/30 flex items-center justify-center">
                   <span className="material-symbols-outlined text-tertiary" style={{ fontSize: 32, fontVariationSettings: "'FILL' 1" }}>
                     check_circle

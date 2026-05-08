@@ -9,7 +9,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="w-full max-w-container mx-auto px-6 py-20 relative">
+    <section id="faq" className="w-full max-w-container mx-auto px-6 py-20 relative">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-headline font-bold mb-4 text-on-surface">
           {t('title')}
