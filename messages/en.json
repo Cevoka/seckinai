@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "services": "Services",
+    "solutions": "Solutions",
+    "process": "Process",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Work With Us"
+  },
+  "hero": {
+    "pill": "Active AI Solutions",
+    "headline1": "Transform Your Business",
+    "headline2": "with AI.",
+    "subheadline": "148+ ready-to-deploy solution templates, 15+ industries, and 20+ integrations to take your business to the next level. Fast. Reliable. Scalable.",
+    "cta": "Get a Free AI Strategy Session",
+    "testimonialQuote": "\"The Seçkin AI team moved from idea to production at an incredible pace. Our chatbot reduced customer support load by 60%.\"",
+    "testimonialAuthor": "Ahmet K. — CTO, TechStart"
+  },
+  "stats": {
+    "templates": "Ready Templates",
+    "sectors": "Industries",
+    "integrations": "Integrations",
+    "custom": "Custom Code"
+  },
+  "services": {
+    "title": "Our Full Capabilities",
+    "subtitle": "Distilled from 148 solution templates into 6 core categories — the complete range of solutions our agency delivers.",
+    "explore": "Explore"
+  },
+  "featured": {
+    "title": "Featured Solutions",
+    "subtitle": "A closer look at our three most-requested areas of expertise.",
+    "item1": {
+      "tag": "From Zero",
+      "title": "We Build Your SaaS Product from Scratch",
+      "desc": "Complete SaaS setup from idea to production. Multi-tenant architecture, subscription management, admin panel, onboarding flow, and CI/CD pipeline included. Average 6-8 weeks to launch.",
+      "cta": "See Details"
+    },
+    "item2": {
+      "tag": "AI Automation",
+      "title": "Autonomous AI Agent Systems",
+      "desc": "Autonomous AI agents equipped with tool-calling, RAG, and multi-step task execution. Self-running systems for research, code writing, CRM updates, and customer responses.",
+      "cta": "See Details"
+    },
+    "item3": {
+      "tag": "Sector Expertise",
+      "title": "Complete Architecture for Your Sector",
+      "desc": "KVKK/GDPR-compliant, full-stack systems for dental clinics, law firms, restaurants, real estate, salons, and more. Customized for each sector's workflows, regulations, and integration needs.",
+      "cta": "See Details"
+    }
+  },
+  "howItWorks": {
+    "title": "How We Work",
+    "subtitle": "From idea to product in three steps, with a predictable process.",
+    "step1": {
+      "number": "01",
+      "title": "Discovery",
+      "desc": "In a free strategy session, we analyze your needs and create your technical roadmap and timeline."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Build",
+      "desc": "We customize and build from our 148+ solution templates. You track progress with weekly demos."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Deploy & Scale",
+      "desc": "We go live, monitor, and iterate. 30 days of free post-delivery support included."
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Clear packages for businesses of every size. No hidden fees.",
+    "pilot": {
+      "name": "Discovery",
+      "price": "Free",
+      "desc": "No reason not to take the first step — we start with a free consultation.",
+      "features": [
+        "Free AI strategy session",
+        "Technical requirements analysis",
+        "Custom roadmap",
+        "Time and cost estimate"
+      ],
+      "cta": "Schedule Session"
+    },
+    "growth": {
+      "name": "Growth",
+      "price": "Variable",
+      "priceNote": "based on scope",
+      "desc": "Ideal for projects with 1-3 modules. 2-6 week delivery.",
+      "features": [
+        "1-3 solution modules",
+        "Custom development",
+        "Full source code delivery",
+        "30 days free support",
+        "Weekly demo meetings"
+      ],
+      "cta": "Get a Quote",
+      "badge": "Most Popular"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "desc": "Bundle pricing for large-scale and multi-module projects.",
+      "features": [
+        "Unlimited modules & integrations",
+        "Dedicated developer team",
+        "SLA guarantee",
+        "Priority support",
+        "Bundle discount"
+      ],
+      "cta": "Contact Us"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real projects, real results.",
+    "t1": {
+      "quote": "\"Our AI chatbot reduced customer support load by 60%. The Seçkin AI team moved from idea to production at an incredible pace.\"",
+      "name": "Ahmet K.",
+      "role": "CTO, TechStart"
+    },
+    "t2": {
+      "quote": "\"Our WhatsApp integration now runs fully automated. Completed in 3 days, not weeks. Highly recommend.\"",
+      "name": "Fatma S.",
+      "role": "Founder, ModaShop"
+    },
+    "t3": {
+      "quote": "\"They brought our sector-specific ERP+AI system to life much faster than expected. The team is incredibly professional.\"",
+      "name": "Murat D.",
+      "role": "CEO, KlinikPro"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the questions on your mind.",
+    "items": [
+      {
+        "q": "Which sectors do you serve?",
+        "a": "We serve 15+ sectors: healthcare, dental, legal, real estate, restaurant, e-commerce, fintech, education, logistics, beauty and more. If your sector isn't on the list, reach out — we can build solutions for nearly any industry."
+      },
+      {
+        "q": "How long does a project take?",
+        "a": "It depends on scope: single-module solutions in 1-2 weeks, 3-5 module projects in 4-8 weeks, full platform setups in 8-16 weeks. We give you a concrete timeline estimate in the first session."
+      },
+      {
+        "q": "Can you integrate with our existing systems?",
+        "a": "Yes. We offer 20+ integration support via API, webhook, n8n, and Zapier. Your existing CRM, ERP, accounting software, or any tool — we can connect."
+      },
+      {
+        "q": "How do you ensure data security?",
+        "a": "All projects are configured to be KVKK and GDPR compliant. Your data is never shared with any third party. Supabase RLS, JWT authentication, and encrypted data storage are applied as standard."
+      },
+      {
+        "q": "Is there post-delivery support?",
+        "a": "Yes — all packages include 30 days of free support and bug fixes. Monthly maintenance subscription plans are also available for long-term support."
+      },
+      {
+        "q": "Will we receive the source code?",
+        "a": "Yes, full source code is delivered. Everything developed belongs to you. We also deliver documentation and an admin panel."
+      },
+      {
+        "q": "Does our team need technical knowledge?",
+        "a": "No. Solutions we deliver come with an admin panel that your team can easily use. No technical knowledge required."
+      },
+      {
+        "q": "Can we order multiple modules at once?",
+        "a": "Yes, and we apply a bundle discount in that case. Click 'Get a Quote' and reach out to us for 3+ module package pricing."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's Bring Your Project to Life",
+    "subtitle": "In a free strategy session, we understand your needs and create a custom roadmap. No commitment required.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email address",
+    "messagePlaceholder": "Briefly describe your project...",
+    "submit": "Request a Session",
+    "submitting": "Sending...",
+    "success": "Request received! We'll get back to you shortly.",
+    "nameRequired": "Name is required",
+    "emailInvalid": "Enter a valid email",
+    "messageRequired": "Message is required"
+  },
+  "footer": {
+    "tagline": "Building transformation with AI, together.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "aiChatbots": "AI Chatbots",
+      "automation": "Automation",
+      "sectorSolutions": "Sector Solutions",
+      "integrations": "Integrations",
+      "webSaas": "Web & SaaS",
+      "mobile": "Mobile & PWA",
+      "about": "About Us",
+      "process": "Our Process",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2024 Seçkin AI. All rights reserved."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "services": "Servisler",
+    "solutions": "Çözümler",
+    "process": "Süreç",
+    "pricing": "Fiyatlar",
+    "contact": "İletişim",
+    "cta": "İş Birliği Yap"
+  },
+  "hero": {
+    "pill": "Aktif AI Çözümleri",
+    "headline1": "İşinizi AI ile",
+    "headline2": "Dönüştürüyoruz.",
+    "subheadline": "148+ hazır çözüm şablonu, 15+ sektör ve 20+ entegrasyon ile işletmenizi geleceğe taşıyoruz. Hızlı. Güvenilir. Ölçeklenebilir.",
+    "cta": "Ücretsiz Strateji Görüşmesi",
+    "testimonialQuote": "\"Seçkin AI ekibi fikirden üretimdeki ürüne inanılmaz hızda ulaştı. Chatbot sistemimiz müşteri yükümüzü %60 azalttı.\"",
+    "testimonialAuthor": "Ahmet K. — CTO, TechStart"
+  },
+  "stats": {
+    "templates": "Hazır Şablon",
+    "sectors": "Sektör",
+    "integrations": "Entegrasyon",
+    "custom": "Özel Kod"
+  },
+  "services": {
+    "title": "Tüm Yeteneklerimiz",
+    "subtitle": "148 skill şablonundan 6 ana kategoride süzülmüş — ajansımızın sunduğu eksiksiz çözüm yelpazesi.",
+    "explore": "Keşfet"
+  },
+  "featured": {
+    "title": "Öne Çıkan Çözümler",
+    "subtitle": "En çok tercih edilen üç uzmanlık alanımızda ne sunduğumuza kısa bir bakış.",
+    "item1": {
+      "tag": "Sıfırdan Kurulum",
+      "title": "SaaS Ürününüzü Sıfırdan İnşa Ediyoruz",
+      "desc": "Fikir aşamasından üretim ortamına kadar eksiksiz SaaS kurulumu. Multi-tenant mimari, abonelik yönetimi, admin paneli, onboarding akışı ve CI/CD pipeline dahil. Ortalama 6-8 haftada canlıya alıyoruz.",
+      "cta": "Detayları Gör"
+    },
+    "item2": {
+      "tag": "AI Otomasyon",
+      "title": "Özerk AI Agent Sistemleri",
+      "desc": "Tool-calling, RAG ve çok adımlı görev yürütme ile donatılmış özerk AI agent'lar. Araştırmadan kod yazımına, CRM güncellemesinden müşteri yanıtlamaya kadar kendi kendine çalışan sistemler.",
+      "cta": "Detayları Gör"
+    },
+    "item3": {
+      "tag": "Sektör Uzmanlığı",
+      "title": "Sektörünüze Özel Eksiksiz Mimari",
+      "desc": "Diş kliniği, hukuk bürosu, restoran, emlak, kuaför ve daha fazlası için KVKK uyumlu, tam yığın sistemler. Her sektörün kendi iş akışına, mevzuatına ve entegrasyon ihtiyacına göre özelleştirilmiş.",
+      "cta": "Detayları Gör"
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışıyoruz",
+    "subtitle": "Fikirden ürüne üç adımda, öngörülebilir bir süreçle.",
+    "step1": {
+      "number": "01",
+      "title": "Keşif",
+      "desc": "Ücretsiz strateji görüşmesinde ihtiyaçlarınızı analiz ediyor, teknik yol haritanızı ve zaman çizelgenizi oluşturuyoruz."
+    },
+    "step2": {
+      "number": "02",
+      "title": "İnşa",
+      "desc": "Kütüphanemizdeki 148+ çözüm şablonunu projenize göre özelleştirip geliştiriyoruz. Haftalık demo'larla ilerlemeyi takip ediyorsunuz."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Yayına Al & Büyüt",
+      "desc": "Production'a alıyor, izliyor ve iterasyon yapıyoruz. Teslim sonrası 30 gün ücretsiz destek dahil."
+    }
+  },
+  "pricing": {
+    "title": "Şeffaf Fiyatlandırma",
+    "subtitle": "Her ölçekteki işletme için net paketler. Gizli ücret yok.",
+    "pilot": {
+      "name": "Keşif",
+      "price": "Ücretsiz",
+      "desc": "İlk adımı atmak için bir neden yok — ücretsiz görüşme ile başlıyoruz.",
+      "features": [
+        "Ücretsiz AI strateji görüşmesi",
+        "Teknik ihtiyaç analizi",
+        "Özelleştirilmiş yol haritası",
+        "Zaman ve maliyet tahmini"
+      ],
+      "cta": "Görüşme Planla"
+    },
+    "growth": {
+      "name": "Büyüme",
+      "price": "Değişken",
+      "priceNote": "kapsama göre",
+      "desc": "1-3 modül içeren projeler için ideal. 2-6 haftalık teslimat.",
+      "features": [
+        "1-3 çözüm modülü",
+        "Özelleştirilmiş geliştirme",
+        "Tam kaynak kodu teslimi",
+        "30 gün ücretsiz destek",
+        "Haftalık demo toplantıları"
+      ],
+      "cta": "Teklif Al",
+      "badge": "En Popüler"
+    },
+    "enterprise": {
+      "name": "Kurumsal",
+      "price": "Özel",
+      "desc": "Büyük ölçekli ve çok modüllü projeler için paket indirimli fiyatlandırma.",
+      "features": [
+        "Sınırsız modül & entegrasyon",
+        "Ayrılmış geliştirici ekibi",
+        "SLA garantisi",
+        "Öncelikli destek",
+        "Paket indirim"
+      ],
+      "cta": "İletişime Geç"
+    }
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Anlatıyor",
+    "subtitle": "Gerçek projeler, gerçek sonuçlar.",
+    "t1": {
+      "quote": "\"AI sohbet botumuz müşteri destek yükümüzü %60 azalttı. Seçkin AI ekibi fikirden ürüne inanılmaz hızda ulaştı.\"",
+      "name": "Ahmet K.",
+      "role": "CTO, TechStart"
+    },
+    "t2": {
+      "quote": "\"WhatsApp entegrasyonumuz artık tamamen otomatik çalışıyor. Haftalar değil, 3 günde tamamlandı. Kesinlikle tavsiye ederim.\"",
+      "name": "Fatma S.",
+      "role": "Kurucu, ModaShop"
+    },
+    "t3": {
+      "quote": "\"Sektörümüze özel ERP+AI sistemimizi beklenenden çok daha kısa sürede hayata geçirdiler. Ekip son derece profesyonel.\"",
+      "name": "Murat D.",
+      "role": "CEO, KlinikPro"
+    }
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "subtitle": "Aklınızdaki soruların cevapları burada.",
+    "items": [
+      {
+        "q": "Hangi sektörlere hizmet veriyorsunuz?",
+        "a": "15+ sektöre hizmet veriyoruz: sağlık, diş, hukuk, emlak, restoran, e-ticaret, fintech, eğitim, lojistik, güzellik ve daha fazlası. Sektörünüz listede yoksa bize ulaşın — neredeyse her iş alanı için çözüm üretebiliyoruz."
+      },
+      {
+        "q": "Bir proje ne kadar sürer?",
+        "a": "Kapsama göre değişir: tek modül çözümler 1-2 haftada, 3-5 modüllü projeler 4-8 haftada, tam platform kurulumları ise 8-16 haftada teslim edilir. İlk görüşmede size kesin bir zaman tahmini veriyoruz."
+      },
+      {
+        "q": "Mevcut sistemimle entegre olabilir misiniz?",
+        "a": "Evet. API, webhook, n8n, Zapier ile 20+ entegrasyon desteği sunuyoruz. Mevcut CRM'iniz, ERP'niz, muhasebe yazılımınız veya herhangi bir araç — bağlantı kurabiliyoruz."
+      },
+      {
+        "q": "Veri güvenliği nasıl sağlıyorsunuz?",
+        "a": "Tüm projeler KVKK ve GDPR uyumlu yapılandırılır. Verileriniz hiçbir üçüncü tarafla paylaşılmaz. Supabase RLS, JWT kimlik doğrulama ve şifreli veri saklama standart olarak uygulanır."
+      },
+      {
+        "q": "Teslim sonrası destek var mı?",
+        "a": "Evet — tüm paketlerde 30 gün ücretsiz destek ve hata düzeltme dahil. Uzun vadeli bakım için aylık abonelik planları da sunuyoruz."
+      },
+      {
+        "q": "Kaynak kodu bize teslim ediliyor mu?",
+        "a": "Evet, tam kaynak kodu teslim edilir. Geliştirilen her şey size aittir. Ek olarak dokümantasyon ve yönetim paneli ile birlikte teslim ederiz."
+      },
+      {
+        "q": "Ekibimizin teknik bilgisi olması gerekiyor mu?",
+        "a": "Hayır. Teslim ettiğimiz çözümler ekibinizin kolayca kullanabileceği yönetim paneliyle birlikte gelir. Teknik bilgi gerekmez."
+      },
+      {
+        "q": "Birden fazla modülü aynı anda alabilir miyiz?",
+        "a": "Evet ve bu durumda paket indirimi uygularız. 3+ modüllü paket fiyatları için \"Teklif Al\" butonuna tıklayıp bize ulaşın."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Projenizi Hayata Geçirelim",
+    "subtitle": "Ücretsiz strateji görüşmesinde ihtiyaçlarınızı anlayıp size özel bir yol haritası çıkarıyoruz. Herhangi bir taahhüt yok.",
+    "namePlaceholder": "Adınız",
+    "emailPlaceholder": "E-posta adresiniz",
+    "messagePlaceholder": "Projenizi kısaca anlatın...",
+    "submit": "Görüşme Talep Et",
+    "submitting": "Gönderiliyor...",
+    "success": "Talebiniz alındı! En kısa sürede dönüş yapacağız.",
+    "nameRequired": "Ad gerekli",
+    "emailInvalid": "Geçerli bir e-posta girin",
+    "messageRequired": "Mesaj gerekli"
+  },
+  "footer": {
+    "tagline": "AI ile dönüşümü birlikte inşa ediyoruz.",
+    "services": "Servisler",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "links": {
+      "aiChatbots": "AI Chatbotlar",
+      "automation": "Otomasyon",
+      "sectorSolutions": "Sektör Çözümleri",
+      "integrations": "Entegrasyonlar",
+      "webSaas": "Web & SaaS",
+      "mobile": "Mobil & PWA",
+      "about": "Hakkımızda",
+      "process": "Sürecimiz",
+      "pricing": "Fiyatlar",
+      "contact": "İletişim",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları"
+    },
+    "copyright": "© 2024 Seçkin AI. Tüm hakları saklıdır."
+  }
+}
