@@ -28,11 +28,14 @@ export default function FinalCTA() {
 
   async function onSubmit(data: FormData) {
     setSubmitError(null);
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
-    });
+    const res = await fetch(
+      'https://kehkxgouyjceypxmtvip.supabase.co/functions/v1/seckinai-contact',
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      }
+    );
     if (!res.ok) {
       setSubmitError('Bir hata oluştu. Lütfen tekrar deneyin.');
       return;
