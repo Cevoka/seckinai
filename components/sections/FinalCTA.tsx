@@ -28,9 +28,9 @@ export default function FinalCTA() {
 
   async function onSubmit(data: FormData) {
     setSubmitError(null);
-    const res = await fetch(
-      'https://kehkxgouyjceypxmtvip.supabase.co/functions/v1/seckinai-contact',
-      {
+    const endpoint = process.env.NEXT_PUBLIC_CONTACT_ENDPOINT
+      ?? 'https://kehkxgouyjceypxmtvip.supabase.co/functions/v1/seckinai-contact';
+    const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
