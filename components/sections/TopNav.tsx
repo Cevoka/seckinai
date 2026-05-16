@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from '@/components/shared/LanguageSwitcher';
 
-const BASE = process.env.NODE_ENV === 'production' ? '/seckinai' : '';
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function TopNav() {
   const t = useTranslations('nav');

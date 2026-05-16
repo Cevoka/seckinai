@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-const BASE = process.env.NODE_ENV === 'production' ? '/seckinai' : '';
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default async function Footer() {
   const t = await getTranslations('footer');
