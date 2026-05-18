@@ -35,7 +35,7 @@ export default async function Featured() {
             } card-hover group`}
           >
             {/* Visual panel */}
-            <div className="md:w-2/5 min-h-[220px] relative flex items-center justify-center p-8 overflow-hidden bg-gradient-to-br from-surface-container to-background">
+            <div className="md:w-2/5 min-h-[160px] md:min-h-[220px] relative flex items-center justify-center p-6 md:p-8 overflow-hidden bg-gradient-to-br from-surface-container to-background">
               <div
                 className="absolute inset-0 opacity-40"
                 style={{

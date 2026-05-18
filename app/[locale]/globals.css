@@ -78,3 +78,20 @@
   .animation-delay-400 { animation-delay: 400ms; }
   .animation-delay-600 { animation-delay: 600ms; }
 }
+
+/* Mobile performance: heavy blur operations cause scroll jank */
+@media (max-width: 767px) {
+  .ambient-glow {
+    display: none;
+  }
+
+  .glass-panel {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .glass-panel-strong {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+}

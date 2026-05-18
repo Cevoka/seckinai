@@ -45,7 +45,7 @@ export default function FinalCTA() {
 
   return (
     <section id="contact" className="w-full max-w-container mx-auto px-6 py-20 relative">
-      <div className="glass-panel rounded-3xl p-8 md:p-14 border border-tertiary/20 rim-light relative overflow-hidden">
+      <div className="glass-panel rounded-2xl md:rounded-3xl p-6 md:p-14 border border-tertiary/20 rim-light relative overflow-hidden">
         {/* Background glow */}
         <div
           className="absolute inset-0 opacity-20 pointer-events-none"

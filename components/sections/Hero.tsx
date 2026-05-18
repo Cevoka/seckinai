@@ -16,7 +16,7 @@ export default async function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-headline text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-6">
+        <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-6">
           <span className="text-on-surface">{t('headline1')}</span>
           <br />
           <span className="text-gradient">{t('headline2')}</span>
@@ -60,7 +60,7 @@ export default async function Hero() {
       </div>
 
       {/* Right column — visual */}
-      <div className="flex-1 relative w-full max-w-[520px] flex flex-col gap-5">
+      <div className="flex-1 relative w-full max-w-[520px] mx-auto md:mx-0 flex flex-col gap-5">
         {/* Icon grid with background glow */}
         <div className="relative">
           {/* Central glow orb */}

@@ -16,12 +16,12 @@ export default async function Stats() {
         {items.map(({ value, label, icon }) => (
           <div
             key={label}
-            className="glass-panel rounded-xl p-6 flex flex-col items-center text-center gap-2 rim-light card-hover"
+            className="glass-panel rounded-xl p-4 md:p-6 flex flex-col items-center text-center gap-2 rim-light card-hover"
           >
             <span className="material-symbols-outlined text-tertiary mb-1" style={{ fontSize: 28 }}>
               {icon}
             </span>
-            <span className="text-3xl font-headline font-extrabold text-gradient">{value}</span>
+            <span className="text-2xl md:text-3xl font-headline font-extrabold text-gradient">{value}</span>
             <span className="text-xs font-label tracking-widest uppercase text-on-surface-variant">
               {label}
             </span>
